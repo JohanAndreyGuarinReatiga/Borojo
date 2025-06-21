@@ -26,6 +26,9 @@ El sistema permite gestionar el inventario, registrar ventas, mantener informaci
 - **inventario**: Control de stock por lotes
 
 ## Instrucciones para ejecutar
+
+abrir los archivos enlazados y se pueude observar los script para la realizacion de cada requerimiento 
+
 1. **Configurar la base de datos:**
   ``
   use tiendaborojo
@@ -35,4 +38,36 @@ El sistema permite gestionar el inventario, registrar ventas, mantener informaci
     ``
     db.coleccion.insertMany({json})
     ``
+    - [productos](productos.json)
+    - [clientes](clientes.json)
+    - [ventas](ventas.json)
+    - [proveedores](proveedores.json)
+    - [inventario](inventario.json)
+
 va a variar la "coleccion" dependiendo la especificada y el "json" debe insertarse de acuerdo a la coleccion, se encuentran en cada uno de los archivos json agregados
+
+3. **Ejecutar Insercion, lectura, actualización y eliminación:**
+
+    - [Insercion](insercion.js)
+    - [Lectura](lectura.js)
+    - [Actualización](actualización.js)
+    - [Eliminación](eliminación.js)
+
+4. [**Probar consultas con expresiones regulares**](expresionesR.js)
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-3.png)
+
+5. [**Ejecutar operadores de arrays**](opArrays.js)
+
+![alt text](image-2.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+6. [**Aggregation Framework con Pipelines**](pipelines.js)
+
+![alt text](image-6.png)
+![alt text](image-7.png)
+
+![alt text](image-8.png)
