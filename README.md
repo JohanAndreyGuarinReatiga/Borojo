@@ -72,3 +72,9 @@ va a variar la "coleccion" dependiendo la especificada y el "json" debe insertar
 ![alt text](image-9.png)
 ![alt text](image-10.png)
 ![alt text](image-8.png)
+
+7. **Funciones del sistema:**
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
