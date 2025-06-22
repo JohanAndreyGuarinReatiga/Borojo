@@ -83,3 +83,13 @@ va a variar la "coleccion" dependiendo la especificada y el "json" debe insertar
 ![alt text](image-15.png)
 ![alt text](image-14.png)
 ![alt text](image-16.png)
+
+9. [**Indexacion**](indexacion.js)
+
+## Tecnologías utilizadas
+
+- **MongoDB**: Base de datos NoSQL
+- **JavaScript**: Lenguaje para scripts y funciones
+- **MongoDB Shell**: Interfaz de línea de comandos
+- **Aggregation Framework**: Para análisis de datos
+- **Índices**: Para optimización de consultas
