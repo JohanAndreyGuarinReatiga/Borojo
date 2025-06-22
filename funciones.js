@@ -11,7 +11,12 @@ calcularDescuento(10000, 15);
 
 
 // 2. Definir una función `clienteActivo(idCliente)` que devuelva `true` si el cliente tiene más de 3 compras registradas.
+db.system.js.insertOne({_id: "clienteActivo",value: new Code(`function(idCliente) {const cliente = db.clientes.findOne({ _id: idCliente });return cliente && cliente.compras && cliente.compras.length > 3;}`)});
+  
+const f2 = db.system.js.findOne({ _id: "clienteActivo" });
+const clienteActivo = new Function('return ' + f2.value.code)();
 
+clienteActivo(6); 
 
 
 // 3. Definir una función `verificarStock(productoId, cantidadDeseada)` que retorne si hay suficiente stock.
