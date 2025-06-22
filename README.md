@@ -27,7 +27,7 @@ El sistema permite gestionar el inventario, registrar ventas, mantener informaci
 
 ## Instrucciones para ejecutar
 
-abrir los archivos enlazados y se pueude observar los script para la realizacion de cada requerimiento 
+abrir los archivos enlazados y se puede observar los script para la realizacion de cada requerimiento 
 
 1. **Configurar la base de datos:**
   ``
@@ -73,8 +73,13 @@ va a variar la "coleccion" dependiendo la especificada y el "json" debe insertar
 ![alt text](image-10.png)
 ![alt text](image-8.png)
 
-7. **Funciones del sistema:**
+7. [**Funciones del sistema:**](funciones.js)
 
 ![alt text](image-11.png)
-
 ![alt text](image-12.png)
+
+8. [**Transacciones**](transacciones.js)
+
+![alt text](image-15.png)
+![alt text](image-14.png)
+![alt text](image-16.png)
