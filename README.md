@@ -93,3 +93,4 @@ va a variar la "coleccion" dependiendo la especificada y el "json" debe insertar
 - **MongoDB Shell**: Interfaz de línea de comandos
 - **Aggregation Framework**: Para análisis de datos
 - **Índices**: Para optimización de consultas
+- **Recurso**: [Notion](https://quilt-scarf-e7e.notion.site/La-tienda-del-boroj-217225c6260280879221f2cc0d52c76b)
